@@ -1,0 +1,10 @@
+# Allow localhost accesses
+allow 127.0.0.1;
+
+# Allow VPN accesses
+allow 172.17.0.0/24;
+
+# Any other requests MUST be blocked!
+#deny all;
+
+allow all;
